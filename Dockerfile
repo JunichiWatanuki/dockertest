@@ -1,5 +1,5 @@
 # コードを実行するコンテナイメージ
-FROM alpine:3.10
+FROM atst/ubuntu:latest
 
 # アクションのリポジトリからコードファイルをファイルシステムパスへコピー`/` of the container
 COPY entrypoint.sh /entrypoint.sh
