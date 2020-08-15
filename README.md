@@ -12,6 +12,6 @@
 挨拶した時間。
 
 ## 使用例
-uses: actions/hello-world-docker-action@v1
+uses: JunichiWatanuki/dockertest@v5
 with:
   who-to-greet: 'Mona the Octocat'
