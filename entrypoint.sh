@@ -12,7 +12,7 @@ done
 ## Started timestamp
 STARTEDTIMESTAMP=`date '+%Y%m%d-%T' | sed -e 's/\://g'`
 
-time=$(STARTEDTIMESTAMP)
+time=${STARTEDTIMESTAMP}
 echo "::set-output name=time::$time"
 
 ## Current directory
