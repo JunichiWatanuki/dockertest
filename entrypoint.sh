@@ -6,7 +6,7 @@ time=$(date)
 echo "::set-output name=time::$time"
 
 
-ARRUSERLIST+=${2}
+ARRUSERLIST+=(${2})
 
 for item in ${ARRUSERLIST[@]}; do
     echo "ARRUSERLIST = ${item}"
