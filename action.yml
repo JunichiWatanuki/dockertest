@@ -12,6 +12,8 @@ inputs:
 outputs:
   time: # id of output
     description: 'The time we greeted you'
+  inifile: # ini-file-path of output
+    description: 'created ini-file'
 runs:
   using: 'docker'
   image: 'Dockerfile'
