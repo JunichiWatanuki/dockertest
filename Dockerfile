@@ -1,5 +1,7 @@
 # コードを実行するコンテナイメージ
-FROM atst/ubuntu:latest
+#FROM atst/ubuntu:latest
+FROM ubuntu:latest
+
 
 # アクションのリポジトリからコードファイルをファイルシステムパスへコピー`/` of the container
 COPY entrypoint.sh /entrypoint.sh
